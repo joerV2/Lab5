@@ -59,8 +59,8 @@ namespace Lab5
                 combSeries.Points.AddXY(size, combDecorator.OperatoinCount);
             }
 
-            chart1.Series.Add(bubbleSeries);
-            chart1.Series.Add(shakerSeries);
+            //chart1.Series.Add(bubbleSeries);
+            //chart1.Series.Add(shakerSeries);
             chart1.Series.Add(combSeries);
         }
 
